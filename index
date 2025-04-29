@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html lang="mn">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dessert Shop</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             background-color: #faefe3;
+             text-align: center;
+             margin: 0;
+             padding: 0;
+         }
+ 
+         .container {
+             width: 60%;
+             margin: 200px auto;
+             background-color: rgb(255, 255, 255);
+             padding: 50px;
+             border-radius: 20px;
+             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+         }
+ 
+         .header {
+             background-color: #f4c2c2;
+             padding: 15px;
+             font-size: 24px;
+             font-weight: bold;
+             color: purple;
+             width: 100%;
+             margin-bottom: 200px;
+             border-radius: 10px;
+         }
+ 
+         .box {
+             color: purple;
+             background-color: white;
+             border: 2px solid #666;
+             width: 50%;
+             margin: 50px auto;
+             padding: 50px;
+             border-radius: 10px;
+             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+             text-align: left;
+         }
+ 
+         ul {
+             list-style-type: square;
+             color: purple;
+             font-size: 18px;
+             width: 50%;
+             margin: 50px auto;
+             padding: 70px;
+ 
+         }
+ 
+         .footer {
+             color: red;
+             font-weight: bold;
+             margin-top: 20px;
+         }
+ 
+     </style>
+ </head>
+ 
+ <body>
+     <div class="container">
+         <div class="header">🍰 Dessert Shop 🍪</div> <img src="c:\Users\altan\Downloads\dessert.jpg" alt="Delicious 🎂Dessert"
+             style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+         <p>We create <span style="font-weight: bold; color: red;">beautiful</span>, <span
+                 style="font-weight: bold; color: green;">creative</span>, and <span
+                 style="font-weight: bold; color: blue;">healthy</span> desserts.</p>
+         <div class="header">What do you want?</div>
+         <div class="box">
+             
+                 <li>Cookies: <b>$0.50</b> each</li>
+                 <li>Cakes and pies: <b>$5.00</b> each</li>
+                 <li>Chocolate: <b>$2.00</b> each</li>
+             
+         </div>
+         <div class="header">Opening Hours ⏰</div>
+         <ul
+             style="list-style-type: disc; padding-left: 20px; text-align: left; border: 2px solid white; border-radius: 5px;">
+             
+             🟢<b>Monday to Thursday:</b> 7:45 a.m - 9:45 p.m
+             🟢<b>Friday:</b> 7:45 a.m - 4:30 p.m
+             🟢<b>Saturday:</b> 9:00 a.m - 4:30 p.m
+             🔴<b>Sunday:</b> noon - 12:30 p.m
+         </ul>
+         <div class="header">Payment Methods 💳</div>
+         <p>We accept:</p>
+         <div class="box">
+            
+                 <li>💵 Cash</li>
+                 <li>🏧 ATM Cards</li>
+                 <li>💳 Credit Cards</li>
+                 <li>💎 American Express</li>
+                 <li>🌍 Discovery</li>
+            
+         </div>
+         <p class="footer">📍 Find us on Google Maps</p>
+     </div>
+ </body>
+ 
+ </html>
